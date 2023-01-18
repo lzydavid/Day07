@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First BootStrap page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/9b2c647427.js" crossorigin="anonymous"></script>
+    <title>Contact Us</title>
 </head>
 <body>
     <div class="container">
@@ -42,52 +42,42 @@
 
         </div>
     </div>
-    
-    <div class="container-md mt-3">
-        <div class="row">
-            <div class="col-lg-6 col-sm-6">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, beatae quae? Aspernatur quo repudiandae sit qui magnam vitae in animi eligendi distinctio libero autem temporibus, soluta fugit nulla officiis! Molestias?
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ratione dolorem dolor veniam vitae quo sint obcaecati repellat. Perspiciatis maxime minima tempore quidem eum necessitatibus temporibus odit numquam veniam dignissimos!
-            </div>
-        </div>
 
-    </div>
-    
-    <div class="container-md">
-        <div class="row mt-5">
-            <div class="col-sx-12 col-sm-6">
-                <form method="post" accept="#">
-                    <div class="mt-3">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" id="email" class="form-control">
+    <div class="contrainer">
+        <div class="row">
+            <section>
+                <form action="#" method="POST" name="contract_form" class="form-label" class="form-control">
+                    <div class="input-group">
+                        <h2>Contact Us</h2>
                     </div>
-                    <div class="mt-3">
-                        <label for="password" class="form-label">Password</label>
-                        <input type="password" id="password" class="form-control">
+                    <div class="mb-3">
+                        <label for="fullname">Fullname</label>
+                        <input type="text" placeholder="i.e Darry" required>
+                        <span>Full Name is required</span>
                     </div>
-                    <div class="mt-3">
-                        <button type="submit" value="submit" class="btn btn-dark btn-lg">Submit</button>
+                    <div class="mb-3">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="i.e Darry@nus.edu.sg" required>
+                        <span>Email is required in a proper format i.e Darry@nus.edu.sg</span>
                     </div>
+                    <div class="mb-3">
+                        <label for="website">Website</label>
+                        <input type="website" placeholder="https://www.iss.nus.edu.sg" required>
+                        <span>URL is required in a proper format i.e https://www.iss.nus.edu.sg</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="comments">Comments</label>
+                        <textarea name="comment" cols="50" rows=""10></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit">Submit form</button>
+
+                    </div>
+                    
                 </form>
-            </div>
-
-        </div>
-
-    </div>
-    <div class="container-md mt-3">
-        <div class="row">
-            <h3>About myself</h3>
-            <hr>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam laborum, praesentium totam delectus optio ullam ad eum dolorum perferendis commodi? Quis vel reprehenderit tenetur alias blanditiis possimus ad hic facilis?
-            </p>
+            </section>
         </div>
     </div>
-    <footer>
-        Copyright &copy; 2023 COMWorks Pte Ltd. All Right Reserved
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
